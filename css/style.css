@@ -41,7 +41,7 @@ header {
 .slot-img {
     display: flex;
     align-items: center;
-    height: 18vh;
+    height: 20vh;
     overflow: hidden;
     object-fit: cover;
 }
