@@ -21,7 +21,6 @@ header {
 }
 
 .main {
-    background: #333;
     height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
