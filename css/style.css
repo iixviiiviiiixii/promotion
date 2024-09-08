@@ -1,5 +1,11 @@
+img {
+    display: block;
+    max-width: 100%;
+}
+
 body {
     height: 100vh;
+    overflow: hidden;
 }
 
 .container {
@@ -15,15 +21,44 @@ header {
 }
 
 .main {
+    background: #333;
     height: 80vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+    border: 1px solid #333;
 }
 
 .slot {
-    border: 1px solid #000;
+    position: relative;
+    background: #e9e9e9;
+    font-size: 12px;
+}
+
+.slot-a {
+    text-decoration: none;
+    color: #ffe2e2;
+}
+
+.slot-img {
     display: flex;
     align-items: center;
-    justify-content: center;
+    height: 20vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.slot-text {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background: #000000b4;
+    z-index: 1;
+    color: #ffe2e2;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.slot-more {
+    color: rgb(230, 77, 244);
 }
