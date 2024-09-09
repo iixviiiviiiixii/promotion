@@ -35,8 +35,12 @@ canvas {
 }
 
 a {
-    color: #ff3a8b;
+    /* color: #ff3a8b; */
     white-space: nowrap;
+}
+
+.a-icon {
+    font-size: 60px;
 }
 
 img {
