@@ -1,3 +1,7 @@
+html {
+    background-color: #e9e5f0;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -57,5 +61,5 @@ header {
 }
 
 .slot-more {
-    color: rgb(230, 77, 244);
+    color: #ff3a8b;
 }
