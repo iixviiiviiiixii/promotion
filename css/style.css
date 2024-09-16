@@ -68,6 +68,7 @@ h1 {
     z-index: 1;
     padding: 5px;
     overflow: hidden;
+    border-radius: 14px 14px 0 0;
 }
 
 .slot-more {
